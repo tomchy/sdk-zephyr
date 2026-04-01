@@ -53,7 +53,7 @@
 			};
 		};
 
-		slot1_partition: partition@80000 {
+		secondary_app_partition: slot1_partition: partition@80000 {
 			compatible = "fixed-subpartitions";
 			label = "image-1";
 			reg = <0x00080000 0x70000>;

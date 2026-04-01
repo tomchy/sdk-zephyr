@@ -20,7 +20,7 @@
 			reg = <0x10000 DT_SIZE_K(664)>;
 		};
 
-		slot1_partition: partition@b6000 {
+		secondary_app_partition: slot1_partition: partition@b6000 {
 			label = "image-1";
 			reg = <0xb6000 DT_SIZE_K(664)>;
 		};

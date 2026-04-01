@@ -23,7 +23,7 @@
 			reg = <0x00010000 0x74000>;
 		};
 
-		slot1_partition: partition@84000 {
+		secondary_app_partition: slot1_partition: partition@84000 {
 			label = "image-1";
 			reg = <0x00084000 0x74000>;
 		};
